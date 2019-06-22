@@ -1,4 +1,7 @@
 {
+  "example": {
+    "exmaple_menu": "Example Menu Extension"
+  },
   "meta": {
     "title": "eosDAC Boilerplate",
     "keywords": "eosdac, member, eos, dac, token, custodian, blockchain, crypto, decentralized, autonomous",

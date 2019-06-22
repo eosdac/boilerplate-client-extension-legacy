@@ -10,10 +10,6 @@ const routes_extension = [
       {
         path: "credits",
         component: () => import("../pages/credits.vue")
-      },
-      {
-        path: "verify/:token",
-        component: () => import("../pages/verify-token")
       }
     ]
   }
