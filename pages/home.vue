@@ -17,7 +17,7 @@
             class="col-xs-12 col-lg-6 q-display-3 index-title"
             style="transition: font-size 0.5s"
           >
-            {{ $t("index.welcome_to_esodac_member_client") }}
+            eosDAC Client Boilerplate
           </div>
         </div>
         <div class="row">
