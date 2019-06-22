@@ -1,9 +1,10 @@
 <template>
   <q-page class="bg-bg2" style="overflow:hidden">
-    <div class="bg-bg1 q-px-md q-pb-md">
+    <div class="bg-bg1 bg-logo q-px-md q-pb-md">
       <img
         src="../../extensions/branding/images/logo/logo-main.svg"
-        style="width:50%"
+        class="animate-scale"
+        style="width:50%; min-width:250px; max-width:500px"
       />
     </div>
     <div class="gradient-bg-primary" style="height:10px"></div>
@@ -19,14 +20,14 @@
             <div class="row justify-end ">
               <q-btn
                 v-if="!getAccountName"
-                size="lg"
+                size="md"
                 color="primary"
                 :label="$t('index.signin')"
                 @click="login"
               />
               <q-btn
                 v-else
-                size="lg"
+                size="md"
                 color="primary"
                 :label="$t('index.signout')"
                 @click="logout"
