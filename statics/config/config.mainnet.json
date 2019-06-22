@@ -1,0 +1,93 @@
+{
+    "dacName": "eosDAC",
+    "dacScope": "eosdac",
+    "accounts": {
+        "treasuryAccount":{
+            "name": "eosdacthedac"
+        },
+        "authAccount": {
+            "name": "dacauthority"
+        }
+    },
+    "contracts": {
+        
+        "token": {
+            "name": "eosdactokens",
+            "symbol": "EOSDAC",
+            "totalSupply": 1000000000.0000,
+            "decimals": 4
+        },
+        "system_token": {
+            "name": "eosio.token",
+            "symbol": "EOS",
+            "decimals": 4
+        },
+        "custodian": {
+            "name": "daccustodian",
+            "memo": "daccustodian",
+            "enable_voting" : true
+        },
+        "bot":{
+            "name": "eosdacthebot"
+        },
+        "system_msig": {
+            "name": "eosio.msig"
+        },
+        "dac_msig": {
+            "name": "dacmultisigs"
+        },        
+        "wpproposal":{
+            "name": "dacproposals"
+        },
+        "escrow":{
+            "name": "eosdacescrow"
+        }
+
+    },
+
+    "financial_page_graphs": [
+        {
+          "account": "eosdacserver",
+          "contract": "eosio.token",
+          "symbol": "EOS",
+          "description":
+            "The EOS Mainnet block producer account for eosDAC which receives Block Producer rewards."
+        },
+        {
+            "account": "eosdacthedac",
+            "contract": "eosio.token",
+            "symbol": "EOS",
+            "description":
+              "The DAC owner account where DAC funds are secured and controlled by a 12-account multisig permission system of elected custodians."
+        },
+        {
+          "account": "daccustodian",
+          "contract": "eosdactokens",
+          "symbol": "EOSDAC",
+          "description": "custodian contract description"
+        },
+        {
+          "account": "dacocoiogmbh",
+          "contract": "eosio.token",
+          "symbol": "EOS",
+          "description":
+            "The current eosDAC service provider account which manages payroll, employment contracts, and real-world interactions on behalf of the DAC."
+        }
+    ],
+
+    "api": {
+        "default_eos_node": "https://proxy.eosnode.tools:443",
+        "bpnodes": "https://eosdac.io/topnodes.json",
+        "memberclient": "https://toolkit-api.eosdac.io",
+        "memberclient_state_api": "https://api.eosdac.io/v1/eosdac",
+        "hyperion": "https://eos.hyperion.eosrio.io/v2/state",
+        "firehose": "ws://bos.eosdac.io:1337"
+    },
+
+    "external":{
+        "homepage": "https://eosdac.io",
+        "discord": "https://discord.io/eosdac",
+        "explorer": "https://bloks.io",
+        "dacexplorer": "https://explorer.eosdac.io"
+    }
+}
