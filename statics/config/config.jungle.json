@@ -79,17 +79,13 @@
     "api": {
         "default_eos_node": "https://jungle2.cryptolions.io:443",
         "bpnodes": "https://eosdac.io/topnodes.json",
-        "memberclient": "http://ns3119712.ip-51-38-42.eu:3000",
         "memberclient_state_api": "https://api-jungle.eosdac.io/v1/eosdac",
-        "hyperion": "https://jungle.hyperion.eosrio.io/v2/state",
         "firehose": "ws://jungle.eosdac.io:1337"
 
     },
 
     "external":{
         "homepage": "https://eosdac.io",
-        "discord": "https://discord.io/eosdac",
-        "explorer": "https://jungle.bloks.io",
-        "dacexplorer": "https://explorer.eosdac.io"
+        "explorer": "https://jungle.bloks.io"
     }
 }

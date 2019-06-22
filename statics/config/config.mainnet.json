@@ -78,16 +78,12 @@
     "api": {
         "default_eos_node": "https://proxy.eosnode.tools:443",
         "bpnodes": "https://eosdac.io/topnodes.json",
-        "memberclient": "https://toolkit-api.eosdac.io",
         "memberclient_state_api": "https://api.eosdac.io/v1/eosdac",
-        "hyperion": "https://eos.hyperion.eosrio.io/v2/state",
         "firehose": "ws://bos.eosdac.io:1337"
     },
 
     "external":{
         "homepage": "https://eosdac.io",
-        "discord": "https://discord.io/eosdac",
-        "explorer": "https://bloks.io",
-        "dacexplorer": "https://explorer.eosdac.io"
+        "explorer": "https://bloks.io"
     }
 }
