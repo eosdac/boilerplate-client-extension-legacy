@@ -13,7 +13,8 @@
         <div class="row gutter-sm">
           <div class="col-xs-12 col-lg-9 ">
             <div class="">
-              This is an example home page (src/extensions/pages/home.vue).
+              This is an example home page for your DAC
+              (src/extensions/pages/home.vue).
             </div>
           </div>
           <div class="col-xs-12 col-lg-3 ">
