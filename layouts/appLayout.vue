@@ -58,7 +58,7 @@
           <q-item-side icon="star" color="text2" />
           <q-item-main>
             <q-item-tile label>DAC</q-item-tile>
-            <q-item-tile sublabel>Go Back To DAC</q-item-tile>
+            <q-item-tile sublabel>Go To DAC</q-item-tile>
           </q-item-main>
         </q-item>
       </q-list>
