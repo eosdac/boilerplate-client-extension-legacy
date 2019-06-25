@@ -6,10 +6,6 @@ const routes_extension = [
       {
         path: "example",
         component: () => import("../pages/example")
-      },
-      {
-        path: "credits",
-        component: () => import("../pages/credits.vue")
       }
     ]
   },
