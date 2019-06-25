@@ -1,5 +1,5 @@
 {
-    "dacName": "eosDAC",
+    "dacName": "Example DAC",
     "dacScope": "eos.dac",
 
     "accounts":{
