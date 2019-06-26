@@ -1,5 +1,5 @@
 {
-    "dacName": "eosDAC",
+    "dacName": "DAC",
     "dacScope": "eosdac",
     "accounts": {
         "treasuryAccount":{
