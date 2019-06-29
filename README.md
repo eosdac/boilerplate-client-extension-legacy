@@ -4,7 +4,7 @@
 This repo contains all files to customize and extend the eosdac-client. It should be pulled in to the src/extensions folder of the eosdac-client. The extensions folder should be added to your gitignore file (by default).
 
 ## branding
-You can change the default colors via the theme.json file found in statics/config/theme.json. You can generate and download your custom scheme file by enabling the "dev tools" on the settings page. The logos for the eosdac-client will be pulled in from branding/images/logos. Be aware that the file names must match the original.
+You can change the default colors via the theme.json file found in statics/config/theme.json. You can generate and download your custom theme file by enabling the "dev tools" on the settings page. The logos for the eosdac-client will be pulled in from branding/images/logos. Be aware that the file names must match the original.
 
 ![image](https://user-images.githubusercontent.com/44613132/55157729-6c29d500-515d-11e9-88cf-6b6287885dd2.png)
 
