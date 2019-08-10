@@ -1,12 +1,5 @@
 <template>
   <q-page class="bg-bg2" style="overflow:hidden">
-    <div class="bg-bg1 bg-logo q-px-md q-pb-md">
-      <img
-        src="../../extensions/branding/images/logo/logo-main.svg"
-        class="animate-scale"
-        style="width:50%; min-width:250px; max-width:500px"
-      />
-    </div>
     <div class="gradient-bg-primary" style="height:10px"></div>
     <div class="q-pa-md">
       <div class="round-borders shadow-4 bg-bg1 q-pa-md">
