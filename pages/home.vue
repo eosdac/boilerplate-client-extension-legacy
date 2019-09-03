@@ -7,8 +7,7 @@
           <div class="col-xs-12 col-lg-9 ">
             <div class="">
               <div class="q-mb-md">
-                <span class="q-title">Example Homepage</span>
-                <span class="q-caption"> (src/extensions/pages/home.vue).</span>
+                <span class="q-title">{{ $configFile.get("dacname") }}</span>
               </div>
               <div class="text-text2">
                 <p>{{ $t("home.description_p1") }}</p>

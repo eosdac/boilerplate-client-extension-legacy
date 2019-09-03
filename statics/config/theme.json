@@ -7,5 +7,12 @@
         "$text1" : "rgba(255,255,255,0.9)",
         "$text2" : "rgba(255,255,255,0.7)",
         "$dark": "#292E42"
-    }
+    },
+    "images": {
+        "logo_url": "../extensions/branding/images/logo/logo-main.svg",
+        "logo_notext_url": "../extensions/branding/images/logo/logo-notext.svg",
+        "background_url": "",
+        "favicon_url": "https://members.eosdac.io/branding/images/icons/favicon-32x32.png",
+        "dac_currency_url": ""
+      }
 }
