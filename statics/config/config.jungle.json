@@ -32,7 +32,7 @@
             "name": "piecesnbitss"
         },
         "system_msig": {
-            "name": "eosiomsigold"
+            "name": "eosio.msig"
         },
         "dac_msig": {
             "name": "dacmultisigs"
