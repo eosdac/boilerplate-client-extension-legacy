@@ -3,14 +3,14 @@
     "exmaple_menu": "Example Menu Extension"
   },
   "meta": {
-    "title": "eosDAC Boilerplate",
-    "keywords": "eosdac, member, eos, dac, token, custodian, blockchain, crypto, decentralized, autonomous",
+    "title": "{dacName} Member Client",
+    "keywords": "",
     "noscript": "To view this webpage you need to have javascript enabled"
   },
   "home": {
     "description_p1": "A DAC is a decentralized autonomous community which means it is owned and operated by the token holders who agree to the constitution and register as members of the community.",
     "description_p2": "This member client will allow you to read the constitution, register as a member, submit worker proposals, register as a custodian candidate, vote on custodians, transfer tokens, and more.",
-    "signin": "log in",
+    "signin": "Log in",
     "signout": "Log out"
   }
 }
